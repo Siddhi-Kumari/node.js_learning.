@@ -1,0 +1,9 @@
+const figlet = require('figlet')
+
+figlet('Hello World', function (err, data) {
+    if (err){
+    console.log('Something wrong...')
+    console.dir(err)
+    }
+    console.log(data)
+})
